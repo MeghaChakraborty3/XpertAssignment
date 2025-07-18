@@ -1,8 +1,40 @@
-# React + Vite
+# Location Intelligence Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React + Tailwind CSS-based dashboard that replicates the "Location Intelligence" screen from an existing Laravel admin panel. The dashboard is built using components from the Ecme React Template.
 
-Currently, two official plugins are available:
+##  Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Tailwind CSS
+- React Icons
+- Vite / Webpack
+- Classnames (`clsx`)
+
+## 📁 Project Structure
+src/
+├── auth/                    # Auth context/provider
+├── components/
+│   ├── layouts/             # Layout component with Sidebar & Header
+│   └── template/            # UI templates like Logo, SideNav
+├── configs/                 # Global configs (e.g. app.config.js)
+├── store/                   # Zustand-based theme state
+├── views/
+│   └── Insights/
+│       └── CustomerLocation.jsx  # Main Location Intelligence screen
+├── App.jsx                  # Main entry point
+└── index.jsx                # ReactDOM render entry
+
+
+
+## Getting Started
+
+1. **Install dependencies:**
+
+```bash
+npm install
+Run the development server:
+
+npm run dev
+Build for production:
+
+npm run build
