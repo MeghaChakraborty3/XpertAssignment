@@ -32,9 +32,9 @@ src/
 
 ```bash
 npm install
+
 Run the development server:
-
 npm run dev
-Build for production:
 
+Build for production:
 npm run build
